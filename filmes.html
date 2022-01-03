@@ -1,0 +1,666 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="owl.carousel.min.css">
+    <link rel="stylesheet" href="owl.theme.default.min.css">
+    <link rel="icon" type="imagem/ico" href="iconbat.ico" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filmes</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+        <nav>
+        
+          <a href="index.html" class="logo">
+            <img src="batcaver.png" />
+          </a>
+
+          <input type="checkbox" class="menu-btn" id="menu-btn" />
+          <label class="menu-icon" for="menu-btn">
+              <span class="nav-icon"></span>
+          </label>
+
+          
+          <ul class="menu">
+              <li><a href="index.html">Inicío</a></li>
+              <li><a href="filmes.html">Filmes</a></li>
+              <li><a href="login.html">Login</a></li>
+              <li><a href="cadastro.html">Cadastro</a></li>
+          </ul>
+
+          
+          <div class="buscar">
+              <input type="text" placeholder="Digite o nome do filme" />
+              <!--Icone de pesquisa-->
+              <i class="fas fa-search"></i>
+          </div>
+        </nav>
+        </div>
+    </header>
+
+     
+    <main>
+      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="post.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h4 class="inf">Os Vingadores</h4>
+              <p class="inf"> Nick Fury, o diretor da S.H.I.E.L.D, deve reunir os únicos super-heróis 
+                              que serão capazes de defender a Terra de ameaças sem precedentes.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="post2.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h4 class="inf">Batman: O Cavaleiro das Trevas</h4>
+              <p class="inf">Com o surgimento do Batman, os criminosos de Gotham City têm muito o que temer. 
+                             Com a ajuda do tenente James Gordon e do promotor público Harvey Dent, Batman luta contra o crime organizado.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="post3.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+    
+              <h4 class="inf">Aquaman</h4>
+              <p class="inf">Aquaman, meio-humano e meio-atlante, e verdadeiro herdeiro de Atlantis. Com a ajuda da princesa Mera, 
+                             Ele precisa recuperar o lendário Tridente de Atlan e aceitar seu destino como protetor das profundezas.</p>
+            
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Próximo</span>
+        </button>
+      </div>
+        <!-- <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+  
+              <div class="carousel-item active">
+                <img src="post.jpg" class="d-block w-100" alt="...">
+                
+              </div>
+            
+              
+              <div class="carousel-item">
+                <img src="post2.jpg" class="d-block w-100" alt="...">
+                
+              </div>
+            
+              <div class="carousel-item">
+                <img src="post3.jpg" class="d-block w-100" alt="...">
+              </div>  
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Anterior</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Próximo</span>
+            </button>
+          </div> -->
+    </main>
+  
+<hr class="line">
+<center>
+    <div class="name">
+    <img src="marvel.png" class="mark">
+    </div>
+</center>
+
+<div class="name">
+<center>
+  <h2 class="subt"> O Homem Aranha</h2>
+  <div class="owl-carousel owl-theme">
+    <div class="item">
+      <a href=""><img src="imgs/spider1.jpg"></a>
+      <p> Peter Parker é o típico nerd da turma, tendo dificuldade em se relacionar com seus colegas. 
+        Até que, um acidante inesperado muda a sua vida.</p>
+    
+    </div>
+    <div class="item">
+      <a href="#"><img src="imgs/spider2.jpg" alt=""></a>
+      <p> A vida de Peter está uma bagunça, pois ser um super-herói não é uma tarefa fácil. 
+        Ao mesmo tempo uma nova ameaça surge, pondo sua vida em risco novamente. </p>
+    </div>
+    <div class="item">
+      <a href="#"><img src="imgs/spider3.jpg" alt=""></a>
+      <p>O relacionamento entre Peter Parker e Mary Jane parece estar dando certo, mas outros problemas começam a surgir. 
+        O herói ganha um novo traje, e uma nova personalidade.</p>
+    </div>
+    <div class="item">
+      <a href="#"><img src="imgs/spider4.jpg" alt=""></a>
+      <p>Peter Parker está tentando saber mais sobre sua origem. 
+        Ele encontra uma pasta que pertenceu ao seu pai e quer descobrir por que seus pais desapareceram.</p>
+    </div>
+    <div class="item">
+      <a href="#"><img src="imgs/spider41.jpg" alt=""></a>
+      <p>Peter Parker está fascinado com as habilidades de Homem-Aranha. 
+        Porém, ele tem que lidar com o retorno de um velho amigo, e a chegada de um novo inimigo.</p>
+    </div>
+    <div class="item">
+    <a href="#"><img src="imgs/spider5.jpg" alt=""></a>
+    <p>Depois de atuar ao lado dos Vingadores, chegou a hora do pequeno Peter Parker voltar para a sua vida, que já 
+      não é mais tão normal.</p>
+    </div>
+    <div class="item">
+    <a href="#"><img src="imgs/spider6.jpg" alt=""></a>
+    <p> Convocado para mais uma missão heroica, o Homem-Aranha precisa enfrentar vários vilões que surgem, 
+      além de deparar-se com o enigmático Mysterio.</p>
+    </div>
+    
+</div>
+</center>
+</div>
+
+<div class=" name">
+<center>
+<h2 class="subt"> O Homem de Ferro</h2>
+<div class="owl-carousel owl-theme">
+  <div class="item">
+  <a href="#"><img src="imgs/iron1.jpg"></a>
+  <p>Tony Stark é um industrial bilionário, e também um brilhante inventor. Ao ser sequestrado ele é obrigado por terroristas a construir uma arma devastadora mas, 
+    ao invés disto, constrói uma armadura de alta tecnologia.</p>
+  </div>
+  <div class="item">
+  <a href="#"><img src="imgs/iron2.jpg" alt=""></a>
+  <p>Em um mundo ciente da existência do Homem de Ferro, o inventor bilionário Tony Stark sofre pressão de todos os lados para compartilhar sua tecnologia.</p>
+  </div>
+  <div class="item">
+  <a href="#"><img src="imgs/iron3.jpg" alt=""></a>
+  <p>O Homem de Ferro precisa aprender a confiar em seus instintos para proteger aqueles que ama e lutar contra seu maior medo: o fracasso.</p>
+  </div>
+    
+</div>
+</center>
+</div>
+
+
+<div class="name">
+<center>
+<h2 class="subt"> Capitão América</h2>
+<div class="owl-carousel owl-theme">
+  <div class="item">
+  <a href="#"><img src="imgs/cap1.jpg"></a>
+  <p>Durante a 2ª Guerra Mundial o americano Steve Rogers se submete a uma experiência, tornando-se um super soldado.</p>
+  </div>
+  <div class="item">
+  <a href="#"><img src="imgs/cap11.jpg" alt=""></a>
+  <p>Steve Rogers é um jovem que participa de experiências visando a criação do supersoldado americano. 
+    No entento, os oficiais percebem que não podem arriscar a vida do jovem nas batalhas de guerra.</p>
+  </div>
+  <div class="item">
+  <a href="#"><img src="imgs/cap2.jpg" alt=""></a>
+  <p>Steve Rogers, segue tentando se ajustar ao mundo moderno. Porém, quando a S.H.I.E.L.D. é atacada, 
+    Steve se vê preso em uma rede de intrigas que ameaça colocar o mundo em risco.</p>
+  </div>
+  <div class="item">
+  <a href="#"><img src="imgs/cap3.jpg" alt=""></a>
+  <p>Os políticos buscam algum meio de controlar os super-heróis, já que seus atos afetam toda a humanidade. 
+    Tal decisão coloca o Capitão América em rota de colisão com Tony Stark, o Homem de Ferro.</p>
+  </div>
+    
+</div>
+</center>
+</div>
+
+<div class="name">
+  <center>
+  <h2 class="subt"> Thor & Os Guardiões da Galáxia</h2>
+  <div class="owl-carousel owl-theme">
+    <div class="item">
+    <a href="#"><img src="imgs/thor1.jpg"></a>
+    <p>No dia de sua coroação, Thor reage com brutalidade quando os inimigos dos deuses entram no palácio violando o tratado. 
+      Como punição, Odin o envia a Terra.</p>
+    </div>
+    <div class="item">
+    <a href="#"><img src="imgs/thor2.jpg" alt=""></a>
+    <p>Thor precisa contar com a ajuda de seus companheiros e até de seu traiçoeiro irmão Loki em um plano audacioso para salvar o universo.</p>
+    </div>
+    <div class="item">
+    <a href="#"><img src="imgs/thor3.jpg" alt=""></a>
+    <p>Thor está preso do outro lado do universo. Ele precisa correr contra o tempo para voltar a Asgard e parar o Ragnarok.</p>
+    </div>
+    <div class="item">
+    <a href="#"><img src="imgs/guard1.jpg" alt=""></a>
+    <p>O aventureiro do espaço Peter Quill torna-se presa de caçadores de recompensas depois que rouba a esfera de Ronan. 
+      Para escapar do perigo, ele faz uma aliança com um grupo de quatro extraterrestres.</p>
+    </div>
+    <div class="item">
+    <a href="#"><img src="imgs/guard2.jpg" alt=""></a>
+    <p>Os Guardiões precisam lutar para manter sua recém descoberta família unida, 
+      enquanto descobrem os mistérios sobre a origem de Peter Quill.</p>
+    </div>
+      
+  </div>
+  </center>
+  </div>
+
+  <div class="name">
+    <center>
+    <h2 class="subt">Hulk</h2>
+    <div class="owl-carousel owl-theme">
+      <div class="item">
+      <a href="#"><img src="imgs/hulk1.jpg"></a>
+      <p>A superexposição acidental de um cientista à radiação gama, 
+        o amaldiçoa com a propensão de se transformar em um besta verde irracional quando fica sob estresse.</p>
+      </div>
+      <div class="item">
+      <a href="#"><img src="imgs/hulk2.jpg" alt=""></a>
+      <p>O Dr. Bruce Banner está prestes a curar-se do Hulk. 
+        Um dispositivo que ele ajudou a criar, o Transponder Gama, o livrará da radiação gama que absorveu.</p>
+      </div>
+      <div class="item">
+      <a href="#"><img src="imgs/hulk3.jpg" alt=""></a>
+      <p>Durante o experimento crítico que permitiria a David Banner livrar-se do Hulk, uma espiã sabota o laboratório. 
+        No entanto, o Doutor se apaixona pela espiã. </p>
+      </div>
+      <div class="item">
+      <a href="#"><img src="imgs/hulk4.jpg" alt=""></a>
+      <p>Após ter seus genes alterados por um acidente envolvendo a radiação gama, 
+        Bruce Banner passa a se transformar em um ser gigantesco e verde.</p>
+      </div>
+      <div class="item">
+      <a href="#"><img src="imgs/hulk5.jpg"></a>
+      <p>Vivendo escondido e longe de Betty Ross, a mulher que ama, 
+        o cientista Bruce Banner busca um meio de retirar a radiação gama que está em seu sangue.</p>
+      </div>  
+    </div>
+    </center>
+    </div>
+
+    <div class="name">
+      <center>
+      <h2 class="subt">Os Vingadores & O Quarteto Fantástico</h2>
+      <div class="owl-carousel owl-theme">
+        <div class="item">
+        <a href="#"><img src="imgs/av1.jpg"></a>
+          <p>. Nick Fury, o diretor da S.H.I.E.L.D, deve reunir os únicos super-heróis 
+               que serão capazes de defender a Terra de ameaças sem precedentes.</p>
+        </div>
+        <div class="item">
+        <a href="#"><img src="imgs/av2.jpg" alt=""></a>
+        <p>Ao tentar proteger o planeta de ameaças, Tony Stark constrói um sistema de inteligência artificial que cuidaria da paz mundial. 
+           O projeto acaba dando errado e gera o nascimento do Ultron.</p>
+        </div>
+        <div class="item">
+        <a href="#"><img src="imgs/av21.jpg" alt=""></a>
+        <p> os Vingadores se unem para combater seu inimigo mais poderoso, Thanos. Em uma missão para coletar todas as joias do infinito, 
+            Thanos planeja usá-las para infligir sua vontade maléfica sobre a realidade.</p>
+        </div>
+        <div class="item">
+        <a href="#"><img src="imgs/av3.jpg" alt=""></a>
+        <p>Após eventos devastadores , o universo está em ruínas. Com a ajuda de aliados remanescentes, 
+           os Vingadores devem se reunir mais uma vez.</p>
+        </div>
+        <div class="item">
+        <a href="#"><img src="imgs/fant1.jpg"></a>
+        <p>Ao sofrerem um acidente, quatro astronaustas são atingidos por raios cósmicos. 
+           Ao descobrirem que adquiriram poderes especiais, o grupo decide formar uma equipe de super-heróis.</p>
+        </div>
+        <div class="item">
+        <a href="#"><img src="imgs/fant2.jpg" alt=""></a>
+        <p>O cientista Reed Richards convence seu arrogante colega Victor von Doom a financiar seus experimentos com energia cósmica.
+          Na estação espacial, a tripulação é exposta a uma tempestade cósmica misteriosa que dá superpoderes a eles.</p>
+        </div>
+        <div class="item">
+        <a href="#"><img src="imgs/fant3.jpg" alt=""></a>
+        <p>Algo estranho surge nos céus de Nova York. Trata-se do Surfista Prateado, que  veio à Terra para prepará-la para ser destruída por seu mestre, 
+          mas para atingir seu objetivo precisará enfrentar o Quarteto Fantástico.</p>
+        </div>
+        <div class="item">
+        <a href="#"><img src="imgs/fant4.jpg" alt=""></a>
+        <p>Quatro jovens astronautas ganham superpoderes ao serem transportados a um universo alternativo e ficarem expostos à radiação cósmica.</p>
+        </div>  
+      </div>
+      </center>
+      </div>
+      
+      <div class="name">
+        <center>
+        <h2 class="subt">X-Men</h2>
+        <div class="owl-carousel owl-theme">
+          <div class="item">
+          <a href="#"><img src="imgs/x1.jpg"></a>
+          <p>Eles são filhos do átomo superior, o próximo elo na corrente da evolução. 
+             Cada um nasceu com uma mutação genética rara, que na puberdade se manifestou em poderes extraordinários.</p>
+          </div>
+          <div class="item">
+          <a href="#"><img src="imgs/x2.jpg" alt=""></a>
+          <p>Stryker, um ex-comandante perverso do exército, tem a chave para o passado de Wolverine e o futuro dos X-Men. 
+            Esta ameaça reacende a chamada para um ato de registro mutante.</p>
+          </div>
+          <div class="item">
+          <a href="#"><img src="imgs/x3.jpg" alt=""></a>
+          <p>A descoberta de uma cura para as mutações leva os mutantes a um ponto decisivo. 
+            Eles podem escolher entre abandonar seus poderes e se tornarem humanos ou continuar com os poderes e permanecerem excluídos.</p>
+          </div>
+          <div class="item">
+          <a href="#"><img src="imgs/x4.jpg" alt=""></a>
+          <p>No início dos anos 1960, durante o auge da Guerra Fria, um mutante chamado Charles Xavier conhece um mutante chamado Erik Lehnsherr.</p>
+          </div>
+          <div class="item">
+          <a href="#"><img src="imgs/x5.jpg"></a>
+          <p>Convencido de que os mutantes são uma ameaça para a humanidade, o Dr. Bolivar Trask desenvolve os Sentinelas, que os perseguem impiedosamente. 
+             Os poucos sobreviventes têm que viver escondidos.</p>
+          </div>
+          <div class="item">
+          <a href="#"><img src="imgs/x6.jpg" alt=""></a>
+          <p>Apocalipse, o primeiro mutante de todos, consegue retornar à vida após milhares de anos. 
+             Agora, ele sai à procura de seguidores para dominar o mundo. Caberá aos X-Men se unirem para impedir os planos do vilão.</p>
+          </div>
+          <div class="item">
+          <a href="#"><img src="imgs/x7.jpg" alt=""></a>
+          <p>Charles Xavier envia sua equipe para perigosas missões, mas a primeira tarefa dos X-Men no espaço gera uma explosão solar, 
+             que acende uma força malévola e faminta por poder dentro de Jean Grey.</p>
+          </div>  
+        </div>
+        </center>
+        </div>  
+
+        <div class="name">
+          <center>
+          <h2 class="subt">Wolverine & Deadpool</h2>
+          <div class="owl-carousel owl-theme">
+            <div class="item">
+            <a href="#"><img src="imgs/wol1.jpg"></a>
+            <p>Tentando esquecer seu passado sombrio, Logan, mais conhecido como Wolverine, parece ter encontrado o amor e a felicidade. 
+              Mas a paz de Logan é abalada quando Victor Creed, seu irmão cruel, aparece.</p>
+            </div>
+            <div class="item">
+            <a href="#"><img src="imgs/wol2.jpg" alt=""></a>
+            <p> Logan passou a viver recluso. Deprimido, ele é encontrado em um bar pela jovem Yukio, que faz um convite para Logan, 
+                visitar um velho amigo no Japão.</p>
+            </div>
+            <div class="item">
+            <a href="#"><img src="imgs/wol3.jpg" alt=""></a>
+            <p>Logan ganha a vida como chofer de limousine para cuidar de Charles Xavier. 
+               Debilitado fisicamente e esgotado emocionalmente, ele é procurado por Gabriela, que precisa da ajuda do ex-X-Men para defender a pequena Laura Kinney.</p>
+            </div>
+            <div class="item">
+            <a href="#"><img src="imgs/dead1.jpg" alt=""></a>
+            <p>Baseado no anti-herói não convencional da Marvel Comics, Deadpool conta a história da origem do ex-agente das Forças Especiais que se tornou o mercenário Wade Wilson.</p>
+            </div>
+            <div class="item">
+            <a href="#"><img src="imgs/dead2.jpg"></a>
+            <p>Quando o super soldado Cable chega em uma missão para assassinar o jovem mutante Russel, 
+               o mercenário Deadpool precisa aprender o que é ser herói de verdade para salvá-lo.</p>
+            </div>  
+          </div>
+          </center>
+          </div>  
+
+          <div class="name">
+            <center>
+            <h2 class="subt">Outros</h2>
+            <div class="owl-carousel owl-theme">
+              <div class="item">
+              <a href="#"><img src="imgs/o2.jpg"></a>
+              <p>O jornalista Eddie Brock desenvolve força e poder sobre-humanos quando seu corpo se funde com o alienígena simbionte Venom.</p>
+              </div>
+              <div class="item">
+              <a href="#"><img src="mov4.jpg" alt=""></a>
+              <p>O relacionamento entre Eddie e Venom está evoluindo. Os dois descobrem como viver juntos e, de alguma forma, se tornarem melhores juntos do que separados.</p>
+              </div>
+              <div class="item">
+              <a href="#"><img src="imgs/dr.jpg" alt=""></a>
+              <p> A vida do Dr. Stephen Strange muda para sempre depois de um terrível acidente de carro. 
+                 Quando a medicina tradicional falha, ele é forçado a procurar por cura e esperança em um lugar improvável. </p>
+              </div>
+              <div class="item">
+              <a href="#"><img src="mov1.jpg" alt=""></a>
+              <p>Natasha Romanoff, também conhecida como Viúva Negra, 
+                 confronta o lado mais sombrio de sua história quando surge uma perigosa conspiração ligada ao seu passado.</p>
+              </div>
+              <div class="item">
+              <a href="#"><img src="mov2.jpg"></a>
+              <p>Shang-Chi precisa confrontar o passado que pensou ter deixado para trás. 
+                 Ao mesmo tempo, ele é envolvido em uma teia de mistérios da organização conhecida como Dez Anéis.</p>
+              </div>
+              <div class="item">
+              <a href="#"><img src="mov5.jpg"></a>
+              <p>Os Eternos, uma raça alienígena imortal criada pelos Celestiais que vivem em segredo na Terra há mais de 7000 anos, 
+                 se reúnem após uma tragédia inesperada para proteger a humanidade.</p>
+              </div> 
+              <div class="item">
+              <a href="#"><img src="imgs/panter1.jpg"></a>
+              <p>O príncipe T'Challa retorna a Wakanda para ser coroado rei. 
+                 Assumindo o manto de Pantera Negra, ele vai à caça de um vilão que roubou um precioso metal de seu país.</p>
+              </div>  
+            </div>
+            </center>
+            </div>    
+
+
+  <hr class="line">
+  <center>
+  <div class="name">
+  <img src="dc.png" class="mark">
+  </div>
+  </center>
+
+
+  <div class="name">
+    <center>
+    <h2 class="subt">Batman</h2>
+    <div class="owl-carousel owl-theme">
+      <div class="item">
+      <a href="#"><img src="imgs/bat0.jpg"></a>
+      <p>Em Gotham City, Charada, Pinguim, Coringa e Mulher-Gato roubam uma invenção secreta e planejam usá-la de forma maléfica. 
+         Além disto, planejam também destruir o Homem-Morcego e o Menino-Prodígio.</p>
+      </div>
+      <div class="item">
+      <a href="#"><img src="imgs/bat1.jpg" alt=""></a>
+      <p>Em Gotham City o milionário Bruce Wayne, que quando jovem teve os pais assassinados por bandidos, 
+         resolve combater o crime como Batman, o Homem-Morcego.</p>
+      </div>
+      <div class="item">
+      <a href="#"><img src="imgs/bat2.jpg" alt=""></a>
+      <p>Com o objetivo de manipular Gotham City, um milionário tenta transformar o Pinguim, um ser deformado que tinha sido abandonado ainda bebê nos esgotos, 
+         em prefeito da cidade. Como se isto não bastasse, surge a Mulher-Gato.</p>
+      </div>
+      <div class="item">
+      <a href="#"><img src="imgs/bat3.jpg" alt=""></a>
+      <p>Duas-Caras e Charada, dois excêntricos bandidos, decidem descobrir a identidade do Homem-Morcego para depois matá-lo.</p>
+      </div>
+      <div class="item">
+      <a href="#"><img src="imgs/bat4.jpg"></a>
+      <p>A dupla dinâmica enfrenta uma terrível dupla de vilões: o gélido Mr. Freeze e a vingativa Hera Venenosa.</p>
+      </div>
+      <div class="item">
+      <a href="#"><img src="imgs/bat5.jpg"></a>
+      <p>Marcado pelo assassinato de seus pais quando ainda era criança, o milionário Bruce Wayne decide viajar pelo mundo em busca de 
+         encontrar meios que lhe permitam combater a injustiça e provocar medo em seus adversários.</p>
+      </div>
+      <div class="item">
+      <a href="#"><img src="imgs/bat6.jpg"></a>
+      <p>Com o surgimento do Batman, os criminosos de Gotham City têm muito o que temer. 
+         Com a ajuda do tenente James Gordon e do promotor público Harvey Dent, Batman luta contra o crime organizado.</p>
+      </div>
+      <div class="item">
+      <a href="#"><img src="imgs/bat61.jpg"></a>
+      <p>Após ser culpado pela morte de Harvey Dent e passar de herói a vilão, Batman desaparece. As coisas mudam com a chegada de uma ladra misteriosa, 
+         a Mulher-Gato, e Bane, um terrorista mascarado, que fazem Batman abandonar seu exílio forçado.</p>
+      </div>
+      <div class="item">
+      <a href="#"><img src="imgs/bat7.jpg" alt=""></a>
+      <p>Temendo que as ações de um super-herói divino não tenham sido controladas, 
+         o formidável e vigoroso vigilante de Gotham City enfrenta o salvador mais reverenciado e moderno de Metrópolis.</p>
+      </div>  
+    </div>
+    </center>
+    </div>
+    
+    <div class="name">
+      <center>
+      <h2 class="subt">Superman</h2>
+      <div class="owl-carousel owl-theme">
+        <div class="item">
+        <a href="#"><img src="imgs/sup1.jpg"></a>
+        <p>Jor-El, um renomado cientista, prevê a destruição do seu planeta e alerta o governo, que não lhe dá credito. 
+          Assim, decide salvar seu filho, mandando-o para a Terra, onde terá superpoderes.</p>
+        </div>
+        <div class="item">
+        <a href="#"><img src="imgs/sup2.jpg" alt=""></a>
+        <p>Três perigosos prisioneiros do extinto planeta Krypton, que estavam confinados na Zona Fantasma, 
+           se libertam graças à uma explosão. O trio parte então para a Terra.</p>
+        </div>
+        <div class="item">
+        <a href="#"><img src="imgs/sup3.jpg" alt=""></a>
+        <p>Superman enfrenta agora um computador diabólico, programado por um gênio da informática que pretende dominar o mundo.</p>
+        </div>
+        <div class="item">
+        <a href="#"><img src="imgs/sup4.jpg" alt=""></a>
+        <p>Lex Luthor fabrica um homem com a mesma estrutura molecular de Superman, portanto, com os mesmos poderes. 
+          A criatura está programada para destruir o Homem de Aço.</p>
+        </div>
+        <div class="item">
+        <a href="#"><img src="imgs/sup5.jpg"></a>
+        <p>O mundo aprendeu a viver sem o Superman. Lois Lane agora tem um filho, 
+          um noivo e ganhará um Pulitzer por conta de sua matéria "Por Que o Mundo Não Precisa do Superman".</p>
+        </div>
+        <div class="item">
+        <a href="#"><img src="imgs/sup6.jpg"></a>
+        <p>Um jovem menino aprende que tem poderes extraordinários e não é desta Terra. 
+           Quando jovem, ele viaja para descobrir de onde veio e para o quê foi enviado a fazer.</p>
+        </div>  
+      </div>
+      </center>
+      </div>
+      
+      <div class="name">
+        <center>
+        <h2 class="subt">Liga da Justiça & Esquadrão Suicida</h2>
+        <div class="owl-carousel owl-theme">
+          <div class="item">
+          <a href="#"><img src="imgs/just0.jpg"></a>
+          <p>Um maligno homem do tempo tentou destruir a cidade com uma série de acidentes meteorológicos malévolos. 
+            A Liga da Justiça poderá salvar o dia?</p>
+          </div>
+          <div class="item">
+          <a href="#"><img src="imgs/just1.jpg" alt=""></a>
+          <p> Juntos, Batman e Mulher-Maravilha buscam e recrutam com agilidade um time de meta-humanos, 
+              mas mesmo com a formação da liga de heróis sem precedentes, poderá ser tarde demais para salvar o planeta de um catastrófico ataque.</p>
+          </div>
+          <div class="item">
+          <a href="#"><img src="imgs/just11.jpg" alt=""></a>
+          <p>Versão extendida da Liga da Justiça.</p>
+          </div>
+          <div class="item">
+          <a href="#"><img src="imgs/suic1.jpg" alt=""></a>
+          <p>Um time dos mais perigosos e encarcerados supervilões são contratados por uma agência secreta do governo, 
+            para combater uma poderosa entidade.</p>
+          </div>
+          <div class="item">
+          <a href="#"><img src="imgs/suic2.jpg"></a>
+          <p>Os supervilões e uma coleção de malucos condenados da prisão de Belle Reve juntam-se à super-secreta e super-obscura Força Tarefa X.</p>
+          </div>  
+        </div>
+        </center>
+        </div>
+
+        <div class="name">
+          <center>
+          <h2 class="subt">Mulher Maravilha & Aquaman</h2>
+          <div class="owl-carousel owl-theme">
+            <div class="item">
+            <a href="#"><img src="imgs/mm1.jpg"></a>
+            <p>Treinada desde cedo para ser uma guerreira imbatível, 
+              Diana Prince nunca saiu da paradisíaca ilha em que é reconhecida como Princesa das Amazonas.</p>
+            </div>
+            <div class="item">
+            <a href="#"><img src="imgs/mm2.jpg" alt=""></a>
+            <p>Em 1984, Diana Prince entra em conflito com dois inimigos formidáveis, Maxwell Lord e a Mulher-Leopardo, 
+              enquanto reencontra misteriosamente com seu antigo interesse amoroso Steve Trevor.</p>
+            </div>
+            <div class="item">
+            <a href="#"><img src="imgs/aqua.jpg" alt=""></a>
+            <p>Aquaman, meio-humano e meio-atlante, e verdadeiro herdeiro de Atlantis. Com a ajuda da princesa Mera, 
+              Ele precisa recuperar o lendário Tridente de Atlan e aceitar seu destino como protetor das profundezas.</p>
+            </div>
+          </div>
+          </center>
+          </div>    
+
+        
+        <div class="name">
+          <center>
+          <h2 class="subt">Outros</h2>
+          <div class="owl-carousel owl-theme">
+            <div class="item">
+            <a href="#"><img src="imgs/ot1.jpg"></a>
+            <p>Supergirl parte rumo à Terra para tentar recuperar o Omegahedron, a fonte de energia necessária para salvar seu planeta Krypton. </p>
+            </div>
+            <div class="item">
+            <a href="#"><img src="imgs/ot2.jpg" alt=""></a>
+            <p>Funcionária de uma indústria de cosméticos é assassinada depois de descobrir um perigoso segredo. 
+               Porém, um gato egípcio a salva, dando-lhe o poder da velocidade e os sentidos de um ágil felino.</p>
+            </div>
+            <div class="item">
+            <a href="#"><img src="imgs/ot3.jpg" alt=""></a>
+            <p>John Constantine é um experiente ocultista e exorcista. 
+               Juntamente com Angela, uma policial cética, ele investiga o misterioso assassinato da irmã gêmea dela.</p>
+            </div>
+            <div class="item">
+            <a href="#"><img src="imgs/ot4.jpg" alt=""></a>
+            <p>O vigilante mascarado Rorschach decide investigar um plano para matar e desacreditar todos os super-heróis do passado e do presente. </p>
+            </div>
+            <div class="item">
+            <a href="#"><img src="imgs/ot5.jpg"></a>
+            <p>Jonah tem uma história de vida violenta, cheia de mitos e lendas que o deixaram com um pé no mundo real e outro no "outro lado". 
+               Sua única ligação dentre os humanos é Leila.</p>
+            </div>
+            <div class="item">
+            <a href="#"><img src="imgs/ot6.jpg"></a>
+            <p>Hal Jordan recebe um poderoso anel e é recrutado por um esquadrão intergaláctico chamado Lanternas Verdes 
+               para lutar contra uma ameaça que pode acabar com o universo.</p>
+            </div>
+            <div class="item">
+            <a href="#"><img src="imgs/ot7.jpg"></a>
+            <p>Billy Batson tem apenas 14 anos de idade, mas recebeu de um antigo mago o dom de se transformar num super-herói adulto chamado Shazam.</p>
+            </div>
+            <div class="item">
+            <a href="#"><img src="imgs/ot8.jpg" alt=""></a>
+            <p>Após ser demitido, Arthur Fleck reage mal à gozação de três homens em pleno metrô e os mata. 
+               Os assassinatos iniciam um movimento popular contra a elite de Gotham City.</p>
+            </div>
+            <div class="item">
+            <a href="#"><img src="imgs/ot9.jpg" alt=""></a>
+            <p>Arlequina, Canário Negro, Caçadora, Cassandra Cain e a policial Renée Montoya formam um grupo inusitado de heroínas. 
+              Quando um perigoso criminoso começa a causar destruição em Gotham, as cinco mulheres precisam se unir para defender a cidade.</p>
+            </div>  
+          </div>
+          </center>
+          </div>    
+
+          <footer>
+            <div>
+              <center><div class="hero01">Batcaverna™ Trademark & CompreBem® Registred mark | Made by Kaio, Arthur e João</div></center>
+            </div>
+          </footer>
+
+<script src="js/owl/jquery.min.js"></script>
+<script src="js/owl/owl.carousel.min.js"></script>
+<script src="js/main/setup2.js"></script>
+
+</body>
+</html>
